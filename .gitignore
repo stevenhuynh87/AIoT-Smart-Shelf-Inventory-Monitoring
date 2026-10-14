@@ -1,0 +1,56 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# Ultralytics & PyTorch models / training artifacts
+runs/
+wandb/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Datasets and large media files
+*.zip
+*.tar
+*.tar.gz
+*.7z
+dataset/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
