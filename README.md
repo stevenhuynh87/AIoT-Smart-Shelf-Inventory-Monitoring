@@ -4,7 +4,7 @@ Hệ thống giám sát tồn kho kệ hàng thông minh AIoT kết hợp thị 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 ├── firmware/         # Mã nguồn ESP32/Arduino, đọc cảm biến HX711/Load cell, MQTT publisher
@@ -21,7 +21,7 @@ Hệ thống giám sát tồn kho kệ hàng thông minh AIoT kết hợp thị 
 
 ---
 
-## 🚀 Quick Start (Môi trường phát triển)
+## Quick Start (Môi trường phát triển)
 
 ### 1. Khởi tạo & Kích hoạt Virtual Environment
 
