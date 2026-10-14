@@ -54,3 +54,10 @@ desktop.ini
 .env
 .env.*
 !.env.example
+
+# Local documents, agents, references & demo (kept local only)
+.agents/
+Plan/
+References/
+demo/
+Thesis_12_Month_Plan.pdf
