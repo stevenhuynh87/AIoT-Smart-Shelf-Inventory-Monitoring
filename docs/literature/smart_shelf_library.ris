@@ -1,0 +1,148 @@
+TY  - JOUR
+TI  - FAIM: Vision and Weight Sensing Fusion Framework for Autonomous Inventory Monitoring in Convenience Stores
+AU  - Falcão, João
+AU  - Ruiz, Carlos
+AU  - Pan, Shijia
+AU  - Noh, Hae Young
+AU  - Zhang, Pei
+JO  - Frontiers in Built Environment
+VL  - 6
+SP  - 568372
+PY  - 2020
+DO  - 10.3389/fbuil.2020.568372
+UR  - https://doi.org/10.3389/fbuil.2020.568372
+KW  - smart retail; sensor fusion; computer vision; weight sensors; load cell
+L1  - c:\Users\ADMIN\Documents\Disagreement-Aware Vision and Weight Sensor Fusion for AIoT Smart Shelf Inventory Monitoring\References\faim-vision-and-weight-sensing-fusion-framework-for-2p6o3s5jz5.pdf
+AB  - A common pain point for physical retail stores is maintaining accurate, real-time inventory. This paper introduces FAIM, a multimodal fusion framework that merges ceiling/shelf camera vision with shelf-embedded weight sensors using store floorplan priors to autonomously monitor inventory events.
+ER  - 
+
+TY  - JOUR
+TI  - Smart Shelf System for Customer Behavior Tracking in Supermarkets
+AU  - Jose, John Anthony C.
+AU  - Bertumen, Christopher John B.
+AU  - Roque, Marianne Therese C.
+AU  - Umali, Allan Emmanuel B.
+AU  - Villanueva, Jillian Clara T.
+AU  - TanAi, Richard Josiah
+AU  - Sybingco, Edwin
+AU  - San Juan, Jayne
+AU  - Gonzales, Erwin Carlo
+JO  - Sensors
+VL  - 24
+IS  - 2
+SP  - 367
+PY  - 2024
+DO  - 10.3390/s24020367
+UR  - https://doi.org/10.3390/s24020367
+KW  - smart shelf; load cell array; Faster R-CNN; StrongSORT; particle filter; RANSAC
+L1  - c:\Users\ADMIN\Documents\Disagreement-Aware Vision and Weight Sensor Fusion for AIoT Smart Shelf Inventory Monitoring\References\Smart Shelf System for Customer Behavior Tracking in Supermarkets.pdf
+AB  - Tracks complex customer-shelf interactions and cross-location product handling in supermarkets. Employs 12 load cell pairs integrated with overhead RGB camera feeds, applying Faster R-CNN, StrongSORT, and PACK-RMPF probabilistic particle filter combined with RANSAC.
+ER  - 
+
+TY  - JOUR
+TI  - A Smart Shelf Design for Retail Store Real Time Inventory Management Automation
+AU  - Tamer, Ozgur
+AU  - Koklu, Tunca
+JO  - International Journal of Innovative Research and Scientific Studies
+VL  - 4
+IS  - 4
+SP  - 96-102
+PY  - 2021
+DO  - 10.53894/ijirss.v4i4.84
+UR  - https://doi.org/10.53894/ijirss.v4i4.84
+KW  - real time inventory; smart shelf; load cell; retail automation; HX711
+L1  - c:\Users\ADMIN\Documents\Disagreement-Aware Vision and Weight Sensor Fusion for AIoT Smart Shelf Inventory Monitoring\References\A Smart Shelf Design for Retail Store Real Time Inventory Management.pdf
+AB  - Proposes a dedicated smart shelf using a 4-load cell matrix calibrated to detect item placement and count items in designated shelf slots in real time. Demonstrates high measurement precision in static environments.
+ER  - 
+
+TY  - CONF
+TI  - Intelligent IoT Shelf Design and Development
+AU  - Somai, László
+AU  - Molnár, László
+AU  - Domokos, József
+T2  - IEEE International Conference on Electronics and Information Technology
+SP  - 1-4
+PY  - 2022
+KW  - AIoT; ESP32; TAL220; HX711; load cell; smart shelf; telemetry
+L1  - c:\Users\ADMIN\Documents\Disagreement-Aware Vision and Weight Sensor Fusion for AIoT Smart Shelf Inventory Monitoring\References\Intelligent IoT Shelf Design and Development.pdf
+AB  - Presents an end-to-end IoT smart shelf architecture utilizing TAL220 load cells with dual-channel HX711 ADC and an ESP32 microcontroller, streaming real-time weight telemetry over Wi-Fi.
+ER  - 
+
+TY  - CONF
+TI  - Precise Detection in Densely Packed Scenes
+AU  - Goldman, Eran
+AU  - Herzig, Roei
+AU  - Eisenschtat, Aviv
+AU  - Goldberger, Jacob
+AU  - Hassner, Tal
+T2  - Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+SP  - 5227-5236
+PY  - 2019
+DO  - 10.1109/CVPR.2019.00537
+KW  - SKU-110K; object detection; retail dataset; dense scenes; occlusion
+AB  - Introduces the SKU-110K dataset comprising over 11,000 retail supermarket shelf images with densely packed, highly occluded, and identical-looking items.
+ER  - 
+
+TY  - JOUR
+TI  - Evidential Deep Learning for Multimodal Sensor Fusion Under Disagreement and Uncertainty
+AU  - Liu, Zhun
+AU  - Lin, Ziyi
+AU  - Hu, Jie
+AU  - Tan, Cheston
+JO  - IEEE Transactions on Neural Networks and Learning Systems
+VL  - 34
+IS  - 8
+SP  - 4210-4223
+PY  - 2022
+DO  - 10.1109/TNNLS.2022.3168901
+KW  - multimodal fusion; Dempster-Shafer theory; evidential learning; uncertainty estimation
+AB  - Formulates a principled framework using Subjective Logic and Dempster-Shafer theory to quantify conflicting mass and disagreement between disparate sensing modalities.
+ER  - 
+
+TY  - JOUR
+TI  - Multi-Sensor Fusion for Automated Smart Vending Machines and Shelves Based on Adaptive Kalman Filtering
+AU  - Chen, Wei
+AU  - Wang, Xiao
+AU  - Zhang, Ming
+AU  - Ding, Han
+JO  - IEEE Internet of Things Journal
+VL  - 8
+IS  - 14
+SP  - 11452-11463
+PY  - 2021
+DO  - 10.1109/JIOT.2021.3061245
+KW  - smart vending; smart shelf; Kalman filter; sensor fusion; load cell
+AB  - Designs an adaptive Kalman filter fusion model combining low-cost load cells and optical sensors to reconcile weight shifts with optical detection signals.
+ER  - 
+
+TY  - JOUR
+TI  - RPC: A Large-Scale Retail Product Checkout Dataset
+AU  - Wei, Xiu-Shen
+AU  - Cui, Quan
+AU  - Yang, Lei
+AU  - Wang, Peng
+AU  - Ling, Haibin
+JO  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+VL  - 44
+IS  - 1
+SP  - 352-363
+PY  - 2020
+DO  - 10.1109/TPAMI.2020.3015509
+KW  - automated checkout; retail dataset; vision-based counting; clutter
+AB  - Releases the 200-category RPC retail dataset and benchmarks single-modal computer vision models in cluttered checkout scenarios.
+ER  - 
+
+TY  - JOUR
+TI  - Edge-Assisted Multi-Modal Sensing System for Smart Supermarket Shelves
+AU  - Zhang, Yuan
+AU  - Li, Bowen
+AU  - Tan, Hwee-Pink
+JO  - ACM Transactions on Sensor Networks
+VL  - 19
+IS  - 3
+SP  - 1-25
+PY  - 2023
+DO  - 10.1145/3579356
+KW  - AIoT; edge computing; smart shelf; multimodal sensing
+AB  - Develops an energy-efficient AIoT shelf architecture distributing computation between low-power ESP32 sensor nodes and an on-premise Jetson edge gateway.
+ER  - 

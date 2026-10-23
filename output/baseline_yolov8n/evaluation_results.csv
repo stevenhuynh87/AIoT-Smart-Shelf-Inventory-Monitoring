@@ -1,0 +1,33 @@
+﻿image_id,group_name,file_name,relative_path,scenario,gt_count,vision_count,error,abs_error,detected_classes,mean_confidence,status,annotated_frame
+shelf_01,nhóm 1,shelf_01.jpg.jpg,Công việc\nhóm 1\shelf_01.jpg.jpg,Baseline (1 sp - dat thua),1,1,0,0,1 cup,0.5714,EXACT,output\baseline_yolov8n\annotated_frames\shelf_01_annotated.jpg
+shelf_02,nhóm 1,shelf_02.jpg.jpg,Công việc\nhóm 1\shelf_02.jpg.jpg,Baseline (2 sp - dat thua),2,3,1,1,"2 bottle, 1 cup",0.54,OVERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_02_annotated.jpg
+shelf_03,nhóm 1,shelf_03.jpg.jpg,Công việc\nhóm 1\shelf_03.jpg.jpg,Baseline (3 sp - dat thua),3,3,0,0,3 bottle,0.6809,EXACT,output\baseline_yolov8n\annotated_frames\shelf_03_annotated.jpg
+shelf_4,nhóm 1,shelf_4.jpg.jpg,Công việc\nhóm 1\shelf_4.jpg.jpg,Baseline (1 sp - dat thua),1,0,-1,1,none,0.0,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_4_annotated.jpg
+shelf_5,nhóm 1,shelf_5.jpg.jpg,Công việc\nhóm 1\shelf_5.jpg.jpg,Baseline (2 sp - dat thua),2,1,-1,1,1 bottle,0.6157,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_5_annotated.jpg
+shelf_6,nhóm 1,shelf_6.jpg.jpg,Công việc\nhóm 1\shelf_6.jpg.jpg,Baseline (3 sp - dat thua),3,3,0,0,"2 cup, 1 bottle",0.6439,EXACT,output\baseline_yolov8n\annotated_frames\shelf_6_annotated.jpg
+shelf_7,Nhóm 2,shelf_7.jpg.jpg,Công việc\Nhóm 2\shelf_7.jpg.jpg,Low Occlusion (4 sp - 2 hang so le),4,3,-1,1,"2 bottle, 1 cup",0.3784,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_7_annotated.jpg
+shelf_8,Nhóm 2,shelf_8.jpg.jpg,Công việc\Nhóm 2\shelf_8.jpg.jpg,Low Occlusion (5 sp - 2 hang so le),5,5,0,0,"3 vase, 1 cup, 1 bottle",0.473,EXACT,output\baseline_yolov8n\annotated_frames\shelf_8_annotated.jpg
+shelf_9,Nhóm 2,shelf_9.jpg.jpg,Công việc\Nhóm 2\shelf_9.jpg.jpg,Low Occlusion (5 sp - 2 hang so le),5,3,-2,2,"2 bottle, 1 cup",0.4583,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_9_annotated.jpg
+shelf_10,Nhóm 2,shelf_10.jpg.jpg,Công việc\Nhóm 2\shelf_10.jpg.jpg,Low Occlusion (4 sp - 2 hang so le),4,3,-1,1,"1 cup, 2 bottle",0.4339,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_10_annotated.jpg
+shelf_11,Nhóm 2,shelf_11.jpg.jpg,Công việc\Nhóm 2\shelf_11.jpg.jpg,Low Occlusion (4 sp - 2 hang so le),4,5,1,1,"1 vase, 2 cup, 1 bottle, 1 book",0.3208,OVERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_11_annotated.jpg
+shelf_12,Nhóm 2,shelf_12.jpg.jpg,Công việc\Nhóm 2\shelf_12.jpg.jpg,Low Occlusion (5 sp - 2 hang so le),5,1,-4,4,1 cup,0.3436,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_12_annotated.jpg
+shelf_13,Nhóm 2,shelf_13.jpg.jpg,Công việc\Nhóm 2\shelf_13.jpg.jpg,Low Occlusion (5 sp - 2 hang so le),5,2,-3,3,"1 bottle, 1 cup",0.5055,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_13_annotated.jpg
+shelf_14,Nhóm 2,shelf_14.jpg.jpg,Công việc\Nhóm 2\shelf_14.jpg.jpg,Low Occlusion (11 sp - xep dong),11,3,-8,8,"2 cup, 1 bottle",0.4227,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_14_annotated.jpg
+shelf_15,Nhóm 2,shelf_15.jpg.jpg,Công việc\Nhóm 2\shelf_15.jpg.jpg,Low Occlusion (11 sp - xep dong),11,3,-8,8,"2 bottle, 1 vase",0.346,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_15_annotated.jpg
+shelf_16,Nhóm 2,shelf_16.jpg.jpg,Công việc\Nhóm 2\shelf_16.jpg.jpg,Low Occlusion (11 sp - xep dong),11,7,-4,4,"2 vase, 3 bottle, 2 cup",0.4273,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_16_annotated.jpg
+shelf_18,Nhóm 3,shelf_18.jpg.jpg,Công việc\Nhóm 3\shelf_18.jpg.jpg,Heavy Occlusion (12 sp - che khuat >50%),12,5,-7,7,"2 vase, 2 bottle, 1 cup",0.4067,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_18_annotated.jpg
+shelf_19,Nhóm 3,shelf_19.jpg.jpg,Công việc\Nhóm 3\shelf_19.jpg.jpg,Heavy Occlusion (12 sp - che khuat >50%),12,5,-7,7,"3 bottle, 1 vase, 1 cup",0.4676,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_19_annotated.jpg
+shelf_20,Nhóm 3,shelf_20.jpg.jpg,Công việc\Nhóm 3\shelf_20.jpg.jpg,Heavy Occlusion (6 sp - cum day dac),6,0,-6,6,none,0.0,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_20_annotated.jpg
+shelf_21,Nhóm 3,shelf_21.jpg.jpg,Công việc\Nhóm 3\shelf_21.jpg.jpg,Heavy Occlusion (6 sp - cum day dac),6,2,-4,4,2 bottle,0.5353,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_21_annotated.jpg
+shelf_22,Nhóm 3,shelf_22.jpg.jpg,Công việc\Nhóm 3\shelf_22.jpg.jpg,Heavy Occlusion (6 sp - cum day dac),6,2,-4,4,2 cup,0.3529,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_22_annotated.jpg
+shelf_23,Nhóm 3,shelf_23.jpg.jpg,Công việc\Nhóm 3\shelf_23.jpg.jpg,Heavy Occlusion (6 sp - cum day dac),6,0,-6,6,none,0.0,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_23_annotated.jpg
+shelf_24,Nhóm 4,shelf_24.jpg.jpg,Công việc\Nhóm 4\shelf_24.jpg.jpg,Environment Noise (0 sp - ke trong),0,0,0,0,none,0.0,EXACT,output\baseline_yolov8n\annotated_frames\shelf_24_annotated.jpg
+shelf_25,Nhóm 4,shelf_25.jpg.jpg,Công việc\Nhóm 4\shelf_25.jpg.jpg,Environment Noise (2 sp - thieu sang),2,1,-1,1,1 cup,0.8364,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_25_annotated.jpg
+shelf_26,Nhóm 4,shelf_26.jpg.jpg,Công việc\Nhóm 4\shelf_26.jpg.jpg,Environment Noise (2 sp - thieu sang),2,2,0,0,2 cup,0.6543,EXACT,output\baseline_yolov8n\annotated_frames\shelf_26_annotated.jpg
+shelf_27,Nhóm 4,shelf_27.jpg.jpg,Công việc\Nhóm 4\shelf_27.jpg.jpg,Foreign Object (3 sp + 1 di vat),3,1,-2,2,1 cup,0.8189,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_27_annotated.jpg
+shelf_28,Nhóm 4,shelf_28.jpg.jpg,Công việc\Nhóm 4\shelf_28.jpg.jpg,Foreign Object (3 sp + 1 di vat),3,1,-2,2,1 bottle,0.5058,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_28_annotated.jpg
+shelf_29,Nhóm 4,shelf_29.jpg.jpg,Công việc\Nhóm 4\shelf_29.jpg.jpg,Environment Noise (4 sp - choi sang),4,4,0,0,4 bottle,0.5816,EXACT,output\baseline_yolov8n\annotated_frames\shelf_29_annotated.jpg
+shelf_30,Nhóm 4,shelf_30.jpg.jpg,Công việc\Nhóm 4\shelf_30.jpg.jpg,Environment Noise (4 sp - choi sang),4,0,-4,4,none,0.0,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_30_annotated.jpg
+shelf_31,Nhóm 4,shelf_31.jpg.jpg,Công việc\Nhóm 4\shelf_31.jpg.jpg,Environment Noise (8 sp - bong do),8,4,-4,4,"3 bottle, 1 cup",0.4944,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_31_annotated.jpg
+shelf_32,Nhóm 4,shelf_32.jpg.jpg,Công việc\Nhóm 4\shelf_32.jpg.jpg,Environment Noise (8 sp - bong do),8,0,-8,8,none,0.0,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_32_annotated.jpg
+shelf_33,Nhóm 4,shelf_33.jpg.jpg,Công việc\Nhóm 4\shelf_33.jpg.jpg,Environment Noise (8 sp - bong do),8,2,-6,6,"1 cup, 1 book",0.479,UNDERCOUNT,output\baseline_yolov8n\annotated_frames\shelf_33_annotated.jpg
