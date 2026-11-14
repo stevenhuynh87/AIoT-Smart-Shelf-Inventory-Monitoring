@@ -21,7 +21,7 @@ Hệ thống giám sát tồn kho kệ hàng thông minh AIoT kết hợp thị 
 
 ---
 
-## Quick Start (Môi trường phát triển)
+## Quick Start
 
 ### 1. Khởi tạo & Kích hoạt Virtual Environment
 
@@ -36,7 +36,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-### 2. Cài đặt các gói phụ thuộc
+### 2. Cài đặt các gói
 
 ```bash
 pip install -r requirements.txt
