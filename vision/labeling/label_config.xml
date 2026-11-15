@@ -1,0 +1,21 @@
+<View>
+  <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="false"/>
+  <RectangleLabels name="label" toName="image" strokeWidth="2">
+    <Label value="product" background="#22c55e"/>
+    <Label value="foreign_object" background="#ef4444"/>
+  </RectangleLabels>
+  <Header value="Occlusion level (occlusion_level)"/>
+  <Choices name="occlusion" toName="image" choice="single" showInline="true" required="true">
+    <Choice value="none"/>
+    <Choice value="low"/>
+    <Choice value="medium"/>
+    <Choice value="high"/>
+  </Choices>
+  <Header value="Lighting level (lighting_level)"/>
+  <Choices name="lighting" toName="image" choice="single" showInline="true" required="true">
+    <Choice value="normal"/>
+    <Choice value="low"/>
+    <Choice value="harsh"/>
+    <Choice value="uneven"/>
+  </Choices>
+</View>

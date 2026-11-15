@@ -38,6 +38,9 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+# Label Studio workspace: keep exported labels/manifest, ignore images + app database
+data/labeling/images/
+data/labeling/ls_data/
 
 # IDEs & Editors
 .vscode/

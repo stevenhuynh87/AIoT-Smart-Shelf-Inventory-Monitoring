@@ -1,0 +1,7 @@
+# Label Studio chạy trong môi trường riêng (Python 3.12), đặt NGOÀI repo ở đường dẫn ngắn để tránh
+# giới hạn MAX_PATH (260 ký tự) của Windows. Không cài chung vào .venv chính (Python 3.14).
+# Cài đặt (PowerShell):
+#   $venv = "$env:USERPROFILE\.venvs\labelstudio"
+#   uv venv $venv --python 3.12
+#   uv pip install --python "$venv\Scripts\python.exe" -r requirements-labeling.txt
+label-studio>=1.23,<2
