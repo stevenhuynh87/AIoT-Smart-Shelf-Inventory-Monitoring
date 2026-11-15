@@ -11,39 +11,10 @@ Hệ thống giám sát tồn kho kệ hàng thông minh AIoT kết hợp thị 
 ├── vision/           # Module thị giác máy tính: Camera capture, YOLO detection, đếm vật thể
 ├── fusion/           # Động cơ Sensor Fusion nhận biết bất đồng (Disagreement-Aware Fusion Engine)
 ├── dashboard/        # Giao diện giám sát thời gian thực (Web Dashboard, MQTT client)
-├── data/             # Dữ liệu thực nghiệm, log cảm biến, dataset mẫu, calibration
-├── docs/             # Tài liệu kiến trúc, sơ đồ phần cứng, hướng dẫn vận hành
+├── data/             # Data thực nghiệm, log cảm biến, dataset mẫu
+├── docs/             # Tài liệu kiến trúc, sơ đồ phần cứng, hướng dẫn 
 ├── thesis/           # Báo cáo khóa luận tốt nghiệp, slide thuyết trình, biểu đồ
-├── tests/            # Bộ kiểm thử tự động (pytest)
+├── tests/            # Bộ kiểm thử pytest
 ├── requirements.txt  # Danh sách thư viện Python
-└── README.md         # Tài liệu tổng quan dự án
-```
+└── README.md         # Tài liệu dự án
 
----
-
-## Quick Start
-
-### 1. Khởi tạo & Kích hoạt Virtual Environment
-
-```bash
-# Tạo môi trường ảo
-python -m venv .venv
-
-# Kích hoạt trên Windows PowerShell:
-.venv\Scripts\Activate.ps1
-
-# Kích hoạt trên Linux/macOS:
-source .venv/bin/activate
-```
-
-### 2. Cài đặt các gói
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Kiểm thử môi trường
-
-```bash
-pytest
-```
