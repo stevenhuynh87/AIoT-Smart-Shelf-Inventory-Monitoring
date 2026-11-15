@@ -11,6 +11,10 @@ Thư mục chứa mã nguồn xử lý thị giác máy tính cho kệ hàng th�
 - `labeling/`: quy trình Label Studio → YOLO (`python -m vision.labeling prepare|config|convert|validate`), xem [docs/labeling_guideline.md](../docs/labeling_guideline.md).
 - `labeling/classes.txt`: danh sách lớp (nguồn chân lý cho class id), `labeling/label_config.xml`: giao diện gán nhãn, `labeling/run_label_studio.ps1`: khởi động server cục bộ.
 
+## 🧪 Huấn luyện Thử nghiệm trên Tập con SKU-110K (S02-C3)
+- `sku110k_subset.py`: Bộ hàm chuẩn bị tập con cố định theo seed (`400` ảnh train / `100` ảnh val) từ `SKU-110K`, sinh `data.yaml`, và chuyển đổi nhãn/dự đoán sang định dạng tương thích với `fusion.metrics`.
+- [`notebooks/S02_C3_yolov8n_sku110k_colab.ipynb`](../notebooks/S02_C3_yolov8n_sku110k_colab.ipynb): Notebook Google Colab chạy trọn quy trình `train -> val -> predict -> counting metrics` cho `YOLOv8n`.
+
 ## 📊 Công cụ Thực nghiệm Cơ sở & Đánh giá (Evaluation & Metrics)
 - `metrics.py`: Re-export bộ hàm đo lường chuẩn hóa từ `fusion.metrics` (`counting_mae`, `exact_accuracy`, `map_wrapper`, `event_precision_recall_f1`, v.v.).
 - `eval_yolov8n_baseline.py`: Script chạy suy luận và đối soát mô hình `YOLOv8n` pretrained trên tập ảnh kệ hàng thực tế.

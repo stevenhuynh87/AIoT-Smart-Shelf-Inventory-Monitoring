@@ -10,4 +10,5 @@ Thư mục lưu trữ toàn bộ tài liệu kỹ thuật của dự án:
 - `yolov8n_baseline_evaluation_design.md`: Thiết kế chi tiết quy trình đánh giá hiệu năng cơ sở YOLOv8n pretrained trên 33 ảnh kệ hàng.
 - `metrics_design.md`: Thiết kế chi tiết và công thức toán học cho module đánh giá hiệu năng `metrics.py` (S02-C1).
 - `labeling_guideline.md`: Hướng dẫn cài đặt Label Studio, quy tắc gán nhãn và quy trình xuất nhãn YOLO (S02-C2).
+- `../notebooks/S02_C3_yolov8n_sku110k_colab.ipynb`: Notebook Google Colab huấn luyện thử nghiệm `YOLOv8n` trên tập con `SKU-110K` tích hợp `fusion.metrics` (S02-C3).
 - `experiment_protocol.md`: Kịch bản thử nghiệm đánh giá độ chính xác trong các điều kiện (chiếu sáng yếu, che khuất một phần, đặt nhầm sản phẩm).
